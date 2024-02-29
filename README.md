@@ -1,9 +1,9 @@
 # ngrinder-agent
 
 ### agent-controller 연결 방법
-1. 포트포워딩
+1. port fowarding
 
-2. agnet.conf 내용 수
+2. agnet.conf content update
 ```conf
 common.start_mode=agent
 #start.mode=agent
@@ -34,6 +34,8 @@ agent.owner=admin
 2024-02-28 15:30:57,090 INFO  agent controller: agent controller communication is shutdown
 2024-02-28 15:30:57,096 ERROR agent controller: Exception whilst sending message. This error is not critical if it doesn't occur much.
 ```
+agent는 controller에서 작업을 할 때 8080 port가 아니라 16000포트로 접속해야 한다. <br>
+따라서, agent.controller_port=16001로 변경하여 문제를 해결했다.
 
 2. agent-port connect error
 ```sh
@@ -41,6 +43,6 @@ agent.owner=admin
 2024-02-28 17:18:37,354 INFO  agent daemon: Test shuts down.
 ```
 ip주소는 연결이 가능 하나 포트 번호 연결의 문제가 생긴 상태. <br>
-network.ps1 파일에 12003 포트 번호를 추가해주어 문제 해결
+network.ps1 파일에 12003 포트 번호를 추가해줌으로써 문제를 해결했다.
 
 3. 
