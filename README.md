@@ -1,7 +1,7 @@
 # ngrinder-agent
 
 ### agent-controller 연결 방법
-1. port fowarding
+1. controller port fowarding
 
 2. agnet.conf content update
 ```conf
