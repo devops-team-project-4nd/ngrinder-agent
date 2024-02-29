@@ -1,0 +1,6 @@
+2024-02-29 14:23:32,473 INFO  Setting of nGrinder local DNS successfully
+2024-02-29 14:23:32,477 INFO  The Grinder version 3.9.1
+2024-02-29 14:23:32,479 INFO  OpenJDK Runtime Environment 11.0.22+7-post-Ubuntu-0ubuntu222.04.1: OpenJDK 64-Bit Server VM (11.0.22+7-post-Ubuntu-0ubuntu222.04.1, mixed mode, sharing) on Linux amd64 5.15.133.1-microsoft-standard-WSL2
+2024-02-29 14:23:32,494 INFO  time zone is KST (+0900)
+2024-02-29 14:23:32,612 INFO  worker process 2 of agent number 0
+2024-02-29 14:23:32,638 INFO  Instrumentation agents: byte code transforming instrumenter for Java
